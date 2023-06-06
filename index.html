@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DISSI DESIGN</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Portfolio">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@elenadissi">
+    <meta name="twitter:title" content="Dissi Design">
+    <meta name="twitter:description" content="Portfolio">
+    <meta name="twitter:creator" content="@elenadissi">
+    <meta name="twitter:image" content="">
+    <meta property="og:title" content="Dissi Design">
+    <meta property="og:type" content="Article">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Dissi Design Portfolio">
+    <meta property="og:site_name" content="Dissi Design">
+    <meta property="fb:admins" content="132951670226590">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta)
+      {
+        if (screen.width < 375)
+        {
+          var newScale = screen.width / 375;
+          viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+        }
+        else
+        {
+          viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main">
+        <div class="header js-header">
+          <div class="header__center center"><a class="header__logo js-header-logo" href="index.html"><img class="header__pic header__pic_black" src="img/logo.png" alt="" /><img class="header__pic header__pic_white" src="img/logo-white.png" alt="" /></a>
+            <div class="header__wrap js-header-wrap">
+              <nav class="header__nav"><a class="header__item active">About me</a><a class="header__item" href="cases.html">Case Studies</a><a class="header__item" href="https://www.dropbox.com/s/f7w2d40b47q5xsl/Profile_CV.pdf?dl=0" target="blank">My CV</a></nav>
+              <div class="header__social"><a class="header__link" href="https://www.facebook.com/elenadissi8" target="blank"><svg class="icon icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  </svg></a><a class="header__link" href="https://www.linkedin.com/in/elenadissi/" target="blank"><svg class="icon icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                  </svg></a><a class="header__link" href="https://t.me/elenadissi" target="blank"><svg class="icon icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-telegram"></use>
+                  </svg></a></div>
+              <div class="line"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+                  <path fill="none" stroke="#323259" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+                </svg></div>
+            </div><a href="https://savelife.in.ua/" target="blank"><button class="header__btn btn btn_ukraine">Help Ukraine</button></a><a href="mailto:elenadissi87@gmail.com"><button class="header__btn btn btn_dark">Contact Me</button></a><button class="header__burger js-header-burger"></button>
+
+          </div>
+          <div class="header__bg js-header-bg"></div>
+        </div>
+
+        <div class="main__center center">
+          <div class="main__wrap">
+            <h1 class="main__title title" data-aos>
+              <p><span>Hey there, My name is Elena.</span></p>
+              <!--<p><span>from</span> <span>The</span> </p>
+              <p><span>Crowd.</span></p> -->
+            </h1>
+            <div class="main__info" data-aos="animation-translate-up" data-aos-delay="200">I have significant experience in <b>Product (UX/UI) Design</b> (10+ years) and <b>Product Management</b>. <br><br>For the last four years, I've successfully managed international product with more than 3.5 million users. I have built the product from scratch and made it profitable in a short time.
+<br><br>
+I believe understanding what businesses and users need is the key factor in products' success.
+        </div>
+            <div class="main__btn" data-aos="animation-translate-up" data-aos-delay="400"><a href="mailto:elenadissi87@gmail.com"><button class="btn btn_primary">Contact me</button></a></div><a class="main__scroll js-scroll" href="#details" data-aos="animation-translate-up">
+              <!-- <div class="main__icon">
+                <div class="main__arrows"><img class="main__pic" src="img/arrow-down.svg" alt=""><img class="main__pic" src="img/arrow-down.svg" alt=""></div>
+              </div>
+              <div class="main__text">Scroll down</div> -->
+            </a>
+          </div>
+          <div class="main__bg" data-aos>
+            <div class="main__preview"><img class="main__pic" src="img/main-pic-1.png" alt=""></div>
+            <div class="main__preview"><img class="main__pic" src="" alt=""></div>
+            <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.6" data-orientation="up" src="" alt=""></div>
+            <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.3" data-orientation="down" src="" alt=""></div>
+            <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.2" data-orientation="right" src="img/main-pic-5.svg" alt=""></div>
+            <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/main-pic-6.png" alt=""></div>
+          </div>
+        </div>
+        <div class="line"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="642" height="820">
+            <path class="path" fill="none" stroke="#d1ecfd" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+          </svg></div>
+      </div>
+      
+      <div class="details js-details" id="details">
+        <div class="bg">
+          <div class="bg__preview"><img class="bg__pic js-parallax" data-scale="1.3" data-orientation="left" src="img/bg.svg" alt=""></div>
+        </div>
+        <div class="details__center center">
+          <div class="details__head head">
+            <div class="head__box">
+              <div class="head__stage stage" data-aos="animation-translate-right"><span class="stage__number">01.</span> My Experience
+              </div>
+              <h2 class="head__title h2" data-aos="animation-scale-y" data-aos-delay="200">I Help Companies to Grow the Businesses.</h2>
+            </div>
+            <div class="head__arrows arrows arrows_white" data-aos="animation-scale-y" data-aos-delay="400"><button class="arrows__prev js-prev"><svg class="icon icon-arrow-prev">
+                  <use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+                </svg></button><button class="arrows__next js-next"><svg class="icon icon-arrow-next">
+                  <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                </svg></button></div><select class="head__select js-details-select">
+              <option>2010-2013</option>
+              <option>2013-2015</option>
+              <option>2015-2016</option>
+              <option>2016-2017</option>
+              <option>2017-2019</option>
+              <option selected>2019-2023</option>
+            </select>
+          </div>
+          <div class="details__body">
+            <div class="details__years" data-aos="animation-translate-right">
+              <div class="details__year js-details-year">2010-2013<div class="details__line">
+                  <div class="details__dot"></div>
+                </div>
+              </div>
+              <div class="details__year js-details-year">2013-2015<div class="details__line">
+                  <div class="details__dot"></div>
+                </div>
+              </div>
+              <div class="details__year js-details-year">2015-2016<div class="details__line">
+                  <div class="details__dot"></div>
+                </div>
+              </div>
+              <div class="details__year js-details-year">2016-2017<div class="details__line">
+                  <div class="details__dot"></div>
+                </div>
+              </div>
+              <div class="details__year js-details-year">2017-2019<div class="details__line">
+                  <div class="details__dot"></div>
+                </div>
+              </div>
+              <div class="details__year js-details-year active">2019-2023<div class="details__line">
+                  <div class="details__dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="details__container" data-aos="animation-translate-up">
+              <div class="details__inner">
+                <div class="details__slider js-details-slider">
+                  <div class="details__preview"><img class="details__pic" src="img/details-pic-1.png" alt=""></div>
+                  <div class="details__preview"><img class="details__pic" src="img/details-pic-2.png" alt=""></div>
+                  <div class="details__preview"><img class="details__pic" src="img/details-pic-3.png" alt=""></div>
+                  <div class="details__preview"><img class="details__pic" src="img/details-pic-4.png" alt=""></div>
+                  <div class="details__preview"><img class="details__pic" src="img/details-pic-5.png" alt=""></div>
+                  <div class="details__preview"><img class="details__pic" src="img/details-pic-6.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="details__foot">
+            <div class="details__wrap">
+              <h5 class="details__info h5" data-aos="animation-scale-y">Design isn't just about making things look good; it's about solving problems and improving lives.</h5>
+              <div class="details__text" data-aos="animation-scale-y" data-aos-delay="200">As a product designer, I am passionate about helping businesses grow by creating innovative and user-centered products. My expertise lies in understanding customers' needs and translating those needs into unique product solutions. Through my strategic design approach, I collaborate closely with businesses to identify opportunities, solve complex challenges, and design products that resonate with their target audience.</div>
+              <!-- <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="400"><button class="btn btn_primary">Contact Me</button></div> -->
+            </div>
+            <div class="details__counter" data-aos>
+              <div class="details__front"></div>
+              <div class="details__back">
+                <div class="details__number number">10+</div>
+                <div class="details__category h6">years experience </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+            <path fill="none" stroke="#323259" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+          </svg></div>
+      </div>
+
+      <div class="wrapper">
+        <div class="lines">
+          <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+              <path fill="none" stroke="#9A97ED" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+            </svg></div>
+          <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+              <path fill="none" stroke="#9A97ED" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+            </svg></div>
+        </div>
+       
+        <div class="work js-work">
+          <div class="work__center center">
+            <div class="work__head head">
+              <div class="head__box">
+                <div class="head__stage stage"><span class="stage__line" data-aos="animation-translate-right"><span class="stage__number">02.</span> What I Do</span>
+                  <!-- <div class="stage__logo"><img class="stage__pic" src="img/logo-sm.png" alt=""></div> -->
+                </div>
+                <h2 class="head__title h2" data-aos="animation-scale-y" data-aos-delay="200">I Make Designs That Solve Problems.</h2>
+              </div>
+              <div class="head__arrows arrows" data-aos="animation-scale-y" data-aos-delay="400"><button class="arrows__prev js-prev"><svg class="icon icon-arrow-prev">
+                    <use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+                  </svg></button><button class="arrows__next js-next"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></button></div>
+            </div>
+            
+            <div class="work__inner" data-aos="animation-translate-up">
+              <div class="work__container">
+                <div class="work__slider js-work-slider">
+                  <div class="work__slide">
+                    <div class="work__item">
+                      <div class="work__preview"><img class="work__pic" src="img/work-pic-1.png" alt=""></div>
+                      <h6 class="work__category h6">UX / UI Design (Product Design)</h6>
+                      <div class="head__text hov" data-aos="animation-scale-y" data-aos-delay="400">The entire design process that combines user-centered design principles to create successful products. <br><br><b>Including 7 principles:</b> Research & Empathize, Define & Plan,  Ideate & Trim, Prototype & Validate, Test & Improve, Polish & Deliver, Measure & Analyze.</div>
+                    </div>
+                  </div>
+                  <div class="work__slide">
+                    <div class="work__item">
+                      <div class="work__preview"><img class="work__pic" src="img/work-pic-2.png" alt=""></div>
+                      <h6 class="work__category h6">UX Audit And Consulting</h6>
+                      <div class="head__text hov" data-aos="animation-scale-y" data-aos-delay="400">A comprehensive evaluation of a product's user experience to identify areas for improvement and make recommendations.<br><br><b>Including: </b>
+Usability Testing, Heuristic Evaluation, User Research, Analytics Review, Content Audit, Visual Design Assessment, and Accessibility Review.</div>
+                    </div>
+                  </div>
+                  <div class="work__slide">
+                    <div class="work__item">
+                      <div class="work__preview"><img class="work__pic" src="img/work-pic-3.png" alt=""></div>
+                      <h6 class="work__category h6">Usability <br>Testing</h6>
+                      <div class="head__text hov" data-aos="animation-scale-y" data-aos-delay="400">A method of evaluating a product's user experience by testing it with actual users using different ways.<br><br><b>Including:</b> Define the Goals and Objectives, Recruit Participants, Develop a Test Plan, Conduct the Test, Analyze the Data, Create a Report.</div>
+                    </div>
+                  </div>
+                  <div class="work__slide">
+                    <div class="work__item">
+                      <div class="work__preview"><img class="work__pic" src="img/work-pic-4.png" alt=""></div>
+                      <h6 class="work__category h6">Product Strategy <br>And Roadmap</h6>
+                      <div class="head__text hov" data-aos="animation-scale-y" data-aos-delay="400">After analyzing your product, I can develop a high-level plan that will help take the product to the next level. <br><br><b>Including:</b> Development Vision of Product, Business Logic, Technical Components, and Development Processes. Creation and Support of a Cross-functional Team.</div>
+                    </div>
+                  </div>
+                  <div class="work__slide">
+                    <div class="work__item">
+                      <div class="work__preview"><img class="work__pic" src="img/work-pic-5.png" alt=""></div>
+                      <h6 class="work__category h6">Product <br>Management</h6>
+                      <div class="head__text hov" data-aos="animation-scale-y" data-aos-delay="400">I can manage a product's development and life cycle, from idea to launch and beyond. <br><br><b>Including:</b> Product Strategy, Market Research, Product Analytics, Product Iteration, Facilitate Product Development Team using Scrum Methodologies</div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="achievement">
+          <div class="achievement__center center">
+            <div class="achievement__container">
+              <div class="achievement__slider js-achievement-slider">
+                <div class="achievement__slide">
+                  <div class="achievement__group">
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-1.png" alt=""></div>
+                    <div class="achievement__preview"><img class="achievement__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/achievement-pic-2.svg" alt=""></div>
+                    <!-- <div class="achievement__preview"><img class="achievement__pic js-parallax" data-scale="1.4" data-orientation="down" src="img/achievement-pic-3.png" alt=""></div> -->
+                  </div>
+                </div>
+                <!-- <div class="achievement__slide">
+                  <div class="achievement__group">
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-1.png" alt=""></div>
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-2.svg" alt=""></div>
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-3.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="achievement__slide">
+                  <div class="achievement__group">
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-1.png" alt=""></div>
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-2.svg" alt=""></div>
+                    <div class="achievement__preview"><img class="achievement__pic" src="img/achievement-pic-3.png" alt=""></div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="achievement__wrap">
+              <div class="achievement__stage stage"><span class="stage__line" data-aos="animation-translate-right"><span class="stage__number">03.</span> Achievement</span>
+                <!-- <div class="stage__logo"><img class="stage__pic" src="img/logo-sm.png" alt=""></div> -->
+              </div>
+              <h5 class="achievement__title h5" data-aos="animation-scale-y" data-aos-delay="200">Inspired the team and helped bring the product to self-sufficiency in 3 months.</h5>
+              <div class="achievement__number number" data-aos><span>3.</span><span>5</span></div>
+              <div class="achievement__info h6" data-aos="animation-scale-y" data-aos-delay="600"><span>😎</span>Million Users for 3 Years</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="projects__center center">
+          <div class="projects__head head">
+            <div class="head__box">
+              <div class="head__stage stage"><span class="stage__line" data-aos="animation-translate-right"><span class="stage__number">04.</span> Latest Projects</span>
+                <!-- <div class="stage__logo"><img class="stage__pic" src="img/logo-sm.png" alt=""></div> -->
+              </div>
+              <h2 class="head__title title" data-aos="animation-scale-y" data-aos-delay="200">Case Studies</h2>
+              <div class="head__text" data-aos="animation-scale-y" data-aos-delay="400">In this chapter, you can comprehensively overview my portfolio's most frequently sought-after projects.</div>
+            </div>
+            <!-- <div class="head__btns" data-aos="animation-scale-y" data-aos-delay="400"><button class="head__btn btn btn_primary">Contact Us</button></div> -->
+          </div>
+          <div class="projects__body">
+            <div class="projects__desc">
+              <div class="projects__category category" data-aos="animation-scale-y">🏆 RedDot Winner 2020</div>
+              <h4 class="projects__info h4" data-aos="animation-scale-y" data-aos-delay="200">Monobank: <br>The Fastest Growing Mobile-only Bank.</h4>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-delay="400">The challenge was creating the most straightforward online bank in the pocket, tripped of redundant features, and with a laser focus on customer-centric support.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="600" href="case_mono.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="projects__preview"><a class="projects__view" href="case_mono.html">view</a><a class="projects__arrow arrow" href="case_mono.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+              <div class="projects__img"><a href="case_mono.html"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/projects-pic-1.png" alt=""></a></div>
+            </div>
+          </div>
+
+          <div class="projects__body">
+            <div class="projects__desc">
+              <h4 class="projects__info h4" data-aos="animation-scale-y" data-aos-delay="200">Privat-24 Business: <br>Mobile App.</h4>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-delay="400">The challenge was to develop a mobile banking app that combines form and function seamlessly while including only the essential features.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="600" href="case_privat_mob.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="projects__preview"><a class="projects__view" href="case_privat_mob">view</a><a class="projects__arrow arrow" href="case_privat_mob.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+              <div class="projects__img"><a href="case_privat_mob.html"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/projects-pic-2.png" alt=""></a></div>
+            </div>
+          </div>
+
+
+          <div class="projects__body">
+            <div class="projects__desc">
+              <h4 class="projects__info h4" data-aos="animation-scale-y" data-aos-delay="200">Privat-24 Business: <br>New Web-version.</h4>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-delay="400">Redesigned the interface with a contemporary and refreshed appearance and created multiple new sections to enhance the user experience.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="600" href="case_privat_web.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="projects__preview"><a class="projects__view" href="case_privat_web">view</a><a class="projects__arrow arrow" href="case_privat_web.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+              <div class="projects__img"><a href="case_privat_web.html"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/projects-pic-3.png" alt=""></a></div>
+            </div>
+          </div>
+
+          <div class="projects__body">
+            <div class="projects__desc">
+              <h4 class="projects__info h4" data-aos="animation-scale-y" data-aos-delay="200">Drakemall: The Fast Growing Mystery Box Marketplace.</h4>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-delay="400">The project involved managing the end-to-end workflow from design to product management.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="600" href="case_drakemall.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="projects__preview"><a class="projects__view" href="case_drakemall">view</a><a class="projects__arrow arrow" href="case_drakemall.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+              <div class="projects__img"><a href="case_drakemall.html"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/projects-pic-4.png" alt=""></a></div>
+            </div>
+          </div>
+
+          <div class="projects__body">
+            <div class="projects__desc">
+              <h4 class="projects__info h4" data-aos="animation-scale-y" data-aos-delay="200">Dog Walking App: <BR>SOON.</h4>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-delay="400">A convenient platform for dog owners to schedule and book dog walking services, ensuring their pets receive the exercise and attention they need when they cannot walk with them.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="600">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="projects__preview"><!-- <a class="projects__view">view</a><a class="projects__arrow arrow">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a> -->
+              <div class="projects__img"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/projects-pic-5.png" alt=""></div>
+            </div>
+          </div>
+
+         <!--  <div class="projects__list">
+            <div class="projects__item">
+              <h4 class="projects__info h4" data-aos="animation-scale-y">Privat-24 Mobile</h4>
+              <div class="projects__preview"><a class="projects__view" href="#">view</a>
+                <div class="projects__img"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="right" src="img/projects-pic-2.png" alt=""></div><a class="projects__arrow arrow" href="case.html">
+                  <div class="arrow__line"><svg class="icon icon-arrow-next">
+                      <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                    </svg><svg class="icon icon-arrow-next">
+                      <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                    </svg></div>
+                </a>
+              </div>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-offset="200">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="400" href="case.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+
+            <div class="projects__item">
+              <h4 class="projects__info h4" data-aos="animation-scale-y">Privat24 Web</h4>
+              <div class="projects__preview"><a class="projects__view" href="#">view</a>
+                <div class="projects__img"><img class="projects__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/projects-pic-3.png" alt=""></div><a class="projects__arrow arrow" href="case.html">
+                  <div class="arrow__line"><svg class="icon icon-arrow-next">
+                      <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                    </svg><svg class="icon icon-arrow-next">
+                      <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                    </svg></div>
+                </a>
+              </div>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-offset="200">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="400" href="case.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div>
+            <div class="projects__item">
+              <h4 class="projects__info h4" data-aos="animation-scale-y">Drakemall</h4>
+              <div class="projects__preview"><a class="projects__view" href="#">view</a>
+                <div class="projects__img"><img class="projects__pic js-parallax" data-scale="1.2" data-orientation="down" src="img/projects-pic-4.png" alt=""></div><a class="projects__arrow arrow" href="case.html">
+                  <div class="arrow__line"><svg class="icon icon-arrow-next">
+                      <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                    </svg><svg class="icon icon-arrow-next">
+                      <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                    </svg></div>
+                </a>
+              </div>
+              <div class="projects__text" data-aos="animation-scale-y" data-aos-offset="200">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</div><a class="projects__arrow arrow" data-aos="animation-scale-y" data-aos-delay="400" href="case.html">
+                <div class="arrow__line"><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg><svg class="icon icon-arrow-next">
+                    <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                  </svg></div>
+              </a>
+            </div> -->
+            
+          </div>
+          <!-- <div class="projects__btn" data-aos="animation-scale-y"><button class="btn btn_primary">Contact Me</button></div> -->
+        </div>
+        <div class="lines">
+          <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+              <path fill="none" stroke="#9A97ED" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+            </svg></div>
+          <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+              <path fill="none" stroke="#9A97ED" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+            </svg></div>
+        </div>
+      </div>
+      
+      <div class="about">
+        <div class="about__center center">
+          <div class="about__container">
+            <div class="about__head">
+              <div class="about__icon" data-aos="animation-scale-y"><img class="about__pic" src="img/talk.png" alt="" /></div>
+              <div class="about__logo" data-aos="animation-scale-y"><img class="about__pic" src="img/logo-sm-pink.png" alt="" /></div>
+              <div class="about__hello" data-aos="animation-scale-y" data-aos-offset="200"><span>👋</span> Thank you for visiting my site.</div>
+              <h5 class="about__info h5" data-aos="animation-scale-y" data-aos-offset="400">Would you be interested in enhancing your website or app? Please contact me today to explore how I can support you in reaching your goals.</h5>
+            </div>
+            <div class="about__row">
+              <div class="about__col">
+                <h2 class="about__title h2" data-aos="animation-scale-y">Let’s talk about your project</h2>
+                <div class="about__btn"><a href="mailto:elenadissi87@gmail.com"><button class="btn btn_white">Contact Me</button></a></div>
+              </div>
+              <div class="about__col">
+                <div class="about__box">
+                  <div class="about__icon" data-aos="animation-scale-y"><img class="about__pic" src="img/talk.png" alt="" /></div>
+                  <div class="about__line" data-aos="animation-scale-y" data-aos-offset="200">
+                    <div class="about__text h5">Start investing in your designs today!</div><a class="about__arrow arrow" href="mailto:elenadissi87@gmail.com">
+                      <div class="arrow__line"><svg class="icon icon-arrow-next">
+                          <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                        </svg><svg class="icon icon-arrow-next">
+                          <use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+                        </svg></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+                <path fill="none" stroke="#ffffff" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+              </svg></div>
+          </div>
+        </div>
+      </div>
+     
+
+      <footer class="footer">
+        <div class="footer__center center">
+          <!-- <div class="footer__body"><a class="footer__logo" href="index.html"><img class="footer__pic" src="img/logo.png" alt=""></a>
+            <div class="footer__text">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</div>
+            <div class="footer__menu"><a class="footer__link" href="#">About</a><a class="footer__link" href="#">Work</a><a class="footer__link" href="#">Services</a><a class="footer__link" href="#">Jobs</a></div>
+          </div> -->
+          <div class="footer__bottom">
+            <div class="footer__copyright">© 2023, DISSI DESIGN.</div>
+            <div class="footer__social">
+              <div class="footer__text">Follow me</div>
+              <div class="footer__list"><a class="footer__link" href="https://www.facebook.com/elenadissi8" target="blank"><svg class="icon icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  </svg></a><a class="footer__link" href="https://www.linkedin.com/in/elenadissi/" target="blank"><svg class="icon icon-youtube">
+                    <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                  </svg></a><a class="footer__link" href="https://t.me/elenadissi" target="blank"><svg class="icon icon-instagram">
+                    <use xlink:href="img/sprite.svg#icon-telegram"></use>
+                  </svg></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="line" data-aos="animation-line" data-aos-offset="0"><svg class="line__svg" xmlns="http://www.w3.org/2000/svg" width="542" height="820">
+            <path fill="none" stroke="#D1ECFD" stroke-width="2" d="M67.002 1c-9.846 2.322-18.256 5.77-25.23 10.347C14.268 29.392 1 59 1 80.242c0 19.465 4.22 33.53 10.7 44.064 8.173 13.266 21.127 23.34 35.946 31.717S81 167.65 99.544 164.4s35.194-14.103 42.438-25.04c6.803-10.273 9.465-18.356 10.034-26.6.594-8.62.814-19.894-12.9-35.218-3.31-3.697-9.405-8.03-15.145-10.693-2.098-.973-14.094-6.014-27.454-5.476-11.45.46-24.028 5.89-30.787 11.675C50.498 86.087 44.87 111.313 47.656 129c2.55 16.172 13.563 35.116 33.645 48.24 11.517 7.526 26.962 13.923 42.67 16.554 15.095 2.53 36.494 6.735 53.47 12.248 16.285 5.29 28.394 11.897 31.848 13.942 6.62 3.92 11.166 8.683 13.38 10.648 4.286 3.803 19.582 21.91 25.16 36.19 9.54 24.417 8.908 49.09 8.256 54.772-1.8 15.703-7 27.963-12.697 37.603-9.28 15.704-21.97 24.68-33.526 28.574-10.768 3.63-20.613 2.77-24.24.96-5.258-2.624-13.262-6.02-18.323-15.728-.928-1.78-2.566-4.622-3.738-9.447-.664-2.732-1.82-19.51 3.738-34.634 2.365-6.435 7.644-21.235 18.323-34.158 14.42-17.453 35.752-33.512 45.406-39.992 16.803-11.278 32.187-19.34 48.6-22.522 3.183-.617 17.907-2.69 31.893-.54 13.195 2.03 25.598 8.157 31.39 11.784 12.017 7.524 21.507 18.63 28.876 37.773 1.484 3.855 2.396 10.446 2.868 15.367.5 5.11.503 8.59 0 14.718-1.117 13.603-4.78 29.58-14.285 47.846-3.29 6.323-8.076 14.9-16.05 25.698-4.696 6.36-13.85 17.642-27.464 33.846l-42.38 50.89c-16.087 20.25-28.28 36.992-36.11 52.17-5.392 10.447-15.198 27.915-20.753 48.628-1.272 4.743-5.466 30.186-2.688 54.394 2.714 23.655 12.28 45.97 21.036 60.27 19.17 31.318 50.474 51.02 59.716 55.687 19.282 9.734 45.952 18.277 76.11 25.364C399.75 772.703 430.5 777.88 466 785.023l175.725 33.055"></path>
+          </svg></div>
+      </footer>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
