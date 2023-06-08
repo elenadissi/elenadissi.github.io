@@ -2127,7 +2127,6 @@ select {
 }
 
 .main__info {
-  max-width: 370px;
   margin-bottom: 48px;
   line-height: 1.77778;
   color: #626586;
