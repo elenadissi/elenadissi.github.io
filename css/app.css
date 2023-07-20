@@ -6650,6 +6650,7 @@ select {
   }
   .jobs__wrap {
     margin-bottom: 48px;
+    margin-top:20px;
     padding: 0;
   }
   .jobs__title {
