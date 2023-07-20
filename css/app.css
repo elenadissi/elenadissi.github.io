@@ -6263,6 +6263,7 @@ select {
 
   .header__burger {
     display: inline-block;
+    margin-left:20px;
   }
   .header__social {
     display: -webkit-box;
