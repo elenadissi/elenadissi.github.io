@@ -6151,7 +6151,7 @@ select {
   margin-bottom: 40px;
 }
   .btn {
-    min-width: 160px;
+    width:100%;
   }
   .work__item {
     flex-direction: column;
