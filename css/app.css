@@ -4745,7 +4745,7 @@ select {
 }
 
 .quality__link:last-child {
-  margin-right: -50px;
+  margin-right: -30px;
 }
 
 .quality__container, .research__container, .wireframes__container {
