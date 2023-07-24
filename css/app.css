@@ -6326,7 +6326,7 @@ select {
   width: 100%;
 }
 .researchh {
-  margin-top: 60px;
+  margin-top: -30px;
 }
   .bg__preview {
     display: none;
@@ -6930,6 +6930,7 @@ right: 0;
   }
   .advantages__inner {
     padding: 36px 24px;
+    padding-bottom: 1px;
   }
   .advantages__category:before {
     left: calc(100% + 52px);
