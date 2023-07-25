@@ -2555,7 +2555,7 @@ select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
- padding-left: 200px;
+  padding-left: 200px;
 }
 
 .head__box {
@@ -6326,7 +6326,7 @@ select {
   width: 100%;
 }
 .researchh {
-  margin-top: -30px;
+  margin-top: 60px;
 }
   .bg__preview {
     display: none;
@@ -6930,7 +6930,6 @@ right: 0;
   }
   .advantages__inner {
     padding: 36px 24px;
-    padding-bottom: 1px;
   }
   .advantages__category:before {
     left: calc(100% + 52px);
