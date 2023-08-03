@@ -2567,7 +2567,7 @@ select {
 .head__stage {
   margin-bottom: 24px;
 }
-.casesmain {
+.head__stage .casesmain {
    margin-top: 90px!important;
 }
 
