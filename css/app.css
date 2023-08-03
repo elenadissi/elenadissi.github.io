@@ -2566,7 +2566,9 @@ select {
 
 .head__stage {
   margin-bottom: 24px;
-  margin-top: 90px;
+}
+.casesmain {
+   margin-top: 90px;
 }
 
 .head__arrows {
