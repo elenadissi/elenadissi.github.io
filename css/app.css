@@ -2568,7 +2568,7 @@ select {
   margin-bottom: 24px;
 }
 .casesmain {
-   margin-top: 90px;
+   margin-top: 90px!important;
 }
 
 .head__arrows {
