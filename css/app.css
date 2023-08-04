@@ -2083,11 +2083,11 @@ select {
   -webkit-transform: translateY(105%);
   -ms-transform: translateY(105%);
   transform: translateY(105%);
-  -webkit-transition: -webkit-transform .8s;
-  transition: -webkit-transform .8s;
-  -o-transition: transform .8s;
-  transition: transform .8s;
-  transition: transform .8s, -webkit-transform .8s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  -o-transition: transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .main__title[data-aos].aos-animate p span {
@@ -2097,27 +2097,27 @@ select {
 }
 
 .main__title[data-aos].aos-animate p:first-child span:first-child {
+  -webkit-transition-delay: .1s;
+  -o-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+.main__title[data-aos].aos-animate p:first-child span:nth-child(2) {
+  -webkit-transition-delay: .1s;
+  -o-transition-delay: .1s;
+  transition-delay: .1s;
+}
+
+.main__title[data-aos].aos-animate p:nth-child(2) span:first-child {
   -webkit-transition-delay: .2s;
   -o-transition-delay: .2s;
   transition-delay: .2s;
 }
 
-.main__title[data-aos].aos-animate p:first-child span:nth-child(2) {
-  -webkit-transition-delay: .4s;
-  -o-transition-delay: .4s;
-  transition-delay: .4s;
-}
-
-.main__title[data-aos].aos-animate p:nth-child(2) span:first-child {
-  -webkit-transition-delay: .6s;
-  -o-transition-delay: .6s;
-  transition-delay: .6s;
-}
-
 .main__title[data-aos].aos-animate p:nth-child(2) span:nth-child(2) {
-  -webkit-transition-delay: .8s;
-  -o-transition-delay: .8s;
-  transition-delay: .8s;
+  -webkit-transition-delay: .2s;
+  -o-transition-delay: .2s;
+  transition-delay: .2s;
 }
 
 .main__title[data-aos].aos-animate p:nth-child(3) span:first-child {
